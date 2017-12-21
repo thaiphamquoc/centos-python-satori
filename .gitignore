@@ -1,0 +1,19 @@
+# Ignoring Vagrant's temporary stuff
+# Ignoring compiled files
+**/target
+# Ignoring IntelliJ project file
+**/.idea
+**/*.iml
+**/.DS_Store
+*.pyc
+*_test.py
+**/.gradle
+derby.log
+docker-compose.override.yml
+.project
+.pydevproject
+.references
+.cache
+*.class
+bin
+
