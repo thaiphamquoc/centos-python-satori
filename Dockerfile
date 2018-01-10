@@ -12,6 +12,6 @@ RUN yum -y clean all && \
     easy_install pyOpenSSL==0.15 || true && \
     pip install --upgrade PyOpenSSL || true
 
-COPY test/satori.py /tmp/satori.py
+COPY test/test_satori.py /tmp/test_satori.py
 
 WORKDIR /tmp

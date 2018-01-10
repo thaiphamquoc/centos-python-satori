@@ -1,4 +1,4 @@
-docker run -it -v /projects=/projects centos:7.3.1611
+docker run -it -v /projects:/projects centos:7.3.1611
 yum -y update
 yum -y install epel-release
 yum install -y python-pip gcc python-devel openssl-devel
