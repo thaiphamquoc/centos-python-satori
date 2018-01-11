@@ -21,12 +21,12 @@ class SubscriptionObserver(object):
 
 def main():
     satori_config = {
-        "endpoint": "",
-        "appkey": "",
+        "endpoint": "wss://ft6dsoll.api.satori.com",
+        "appkey": "cCCe3E196cd6C83adD332Eb672bfd4f4",
         "channel": "discovery_staging.bievent",
         "sub_id": "discovery_staging_bievent"
     }
-    stream_filter = "SELECT * FROM `disocovery_staging.bievent`"
+    stream_filter = "SELECT * FROM `discovery_staging.bievent`"
 
     subscription_observer = SubscriptionObserver()
 
